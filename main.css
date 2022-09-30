@@ -3,8 +3,47 @@ body {
     
 }
 article > div:hover {
-background-color: rgba(196, 196, 196, 0.623);
-transition-duration: 0.4s;
-cursor: pointer;
-border-radius: 30px;
+    background-color: rgba(196, 196, 196, 0.623);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
 }
+header > div > h3:hover {
+    padding: 20px 40px;
+    background-color: rgba(196, 196, 196, 0.623);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .fa:hover {
+    border-radius: 30%;
+    transition-duration: 0.4s;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 8px;
+    height: 8px;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    width: 8px;
+    height: 8px;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    width: 8px;
+    height: 8px;
+  }
